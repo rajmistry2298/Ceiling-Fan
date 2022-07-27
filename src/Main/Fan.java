@@ -33,10 +33,9 @@ public class Fan {
             this.fanDirection = "FORWARD";
         }
     }
-
-
+    
     @Override
     public String toString() {
-        return "Main.Fan is working at "+speed+"speed and the direction of Main.Fan is "+ fanDirection + ".";
+        return "Fan is working at "+speed+" speed and the direction of Fan is "+ fanDirection + ".";
     }
 }
